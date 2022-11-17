@@ -11,7 +11,7 @@ Boxes::Boxes() {
     // init the boxes
     Box* cur_box = this->boxes;
     std::fstream fs;
-    fs.open("inc/boxes.cfg", std::fstream::in);
+    fs.open("boxes.cfg", std::fstream::in);
     while (fs.peek() != EOF) {
         fs >> cur_box->id >> cur_box->ticket;
         cur_box++;
