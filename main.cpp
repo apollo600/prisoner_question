@@ -1,6 +1,5 @@
 #include <iostream>
-#include "Boxes.h"
-#include "Prison.h"
+#include "inc/Prison.h"
 
 
 int main() {

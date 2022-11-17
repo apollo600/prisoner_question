@@ -25,6 +25,8 @@ class Boxes {
     /* functions */
     private:
         Boxes();
+
+        ~Boxes();
         
         /* interface to get box's ticket */
         int get_ticket(const int& b_id);
