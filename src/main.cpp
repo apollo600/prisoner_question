@@ -1,6 +1,5 @@
 #include <iostream>
-#include "inc/Prison.h"
-
+#include "Prison.h"
 
 int main() {
     Prison* prison = Prison::getInstance();
